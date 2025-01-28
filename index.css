@@ -6,7 +6,7 @@
     Ubuntu, Cantarell, sans-serif;
 }
 
-
+/* Navigation styles */
 header {
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color:green;
+  color: #ff385c;
 }
 
 .btn {
@@ -86,7 +86,7 @@ nav ul li a:hover {
     background-color: #fff;
   }
 
-  nav ul.show {
+  nav ul.hide {
     display: flex;
   }
 
@@ -112,7 +112,7 @@ nav ul li a:hover {
   }
 }
 
-
+/* Hero section styles */
 .hero {
   padding: 20px;
   text-align: center;
@@ -160,7 +160,7 @@ nav ul li a:hover {
   height: 20px;
 }
 
-
+/* Features section styles */
 .features-section {
   text-align: center;
   width: 80%;
